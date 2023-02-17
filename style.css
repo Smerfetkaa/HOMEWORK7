@@ -96,16 +96,15 @@ nav > ul {
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
-  max-width: 100%;
   display: flex;
   justify-content: flex-start;
   align-content: center;
   flex-wrap: wrap;
-  padding: 160px 350px;
+  padding: 160px 70px;
 }
 .conteiner-img > div {
   position: relative;
- 
+
   max-width: 25%;
   display: flex;
   flex-direction: column;
@@ -150,7 +149,7 @@ nav > ul {
 
 main {
   background: #e5e5e5;
-  padding: 80px 400px;
+  padding: 80px 40px;
 }
 .special-offers {
   display: flex;
@@ -166,7 +165,7 @@ main {
   line-height: 28px;
   color: #000000;
   margin-bottom: 40px;
-}
+  }
 .all-produkts {
   display: flex;
   justify-content: center;
@@ -226,16 +225,14 @@ main {
 .marketing {
   display: flex;
   margin: 100px 0;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .gift-visit {
   background: #f13c6e;
   display: flex;
   padding: 35px;
-  margin: 0 1%;
-  width: 540px;
-  justify-content: space-between;
+
   align-items: center;
 }
 .gift-visit h3 {
@@ -259,6 +256,7 @@ main {
 }
 .gift-visit img {
   height: 100px;
+  margin-left: 20px;
 }
 .gift-visit input {
   background: #ffffff;
@@ -298,8 +296,9 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   background: #ffffff;
-  
+
   margin-bottom: 80px;
+  max-width: 840px;
 }
 .impuls-item {
   padding: 35px 65px;
