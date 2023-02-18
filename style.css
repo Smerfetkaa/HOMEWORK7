@@ -165,7 +165,7 @@ main {
   line-height: 28px;
   color: #000000;
   margin-bottom: 40px;
-  }
+}
 .all-produkts {
   display: flex;
   justify-content: center;
@@ -339,11 +339,19 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding: 20px 0;
 }
 .footer-line img {
-  padding: 40px 20px;
   width: 45px;
 }
+.footer-line-img {
+  display: flex;
+  flex-direction: row;
+  }
+  .footer-line-img li:nth-child(-n+2) {
+    margin-right: 10px;
+  }
+
 .footer-line-call {
   display: flex;
   flex-direction: row;
@@ -377,6 +385,7 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding: 25px 0;
 }
 .footer-end p {
   font-family: "Roboto";
@@ -385,5 +394,4 @@ main {
   font-size: 12px;
   line-height: 14px;
   color: #828282;
-  margin: 25px 0;
 }
